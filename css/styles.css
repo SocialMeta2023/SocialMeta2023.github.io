@@ -137,6 +137,7 @@ ul {
 
 a {
     text-decoration: none;
+    white-space: nowrap;
 }
 
 
@@ -680,9 +681,9 @@ img{
         padding: 2rem;
       }
 
-    .nav__menu{
+    /* .nav__menu{
         padding: 2rem .25rem 4rem;
-    }
+    } */
     
     .nav__list{
         column-gap: 0;
@@ -840,6 +841,10 @@ img{
         padding: 0;
     }
 
+    .nov__logo{
+        font-size: var(--normal-font-size);
+    }
+
     .home__blob{
         width: 320px;
         height: 320px;
@@ -883,6 +888,10 @@ img{
 }
 
 @media screen and (min-width: 767px){
+    .nav__logo{
+        font-size: var(--big-font-size);
+    }
+
     .section{
         padding: 6rem;
     }
