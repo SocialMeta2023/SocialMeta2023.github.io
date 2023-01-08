@@ -572,26 +572,26 @@ img{
 
 .G-chairs{
     font-size: var(--normal-font-size);
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1-5);
 }
 
 .T-chairs{
     font-size: var(--normal-font-size);
-    margin-top: var(--mb-2-5);
-    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-1-5);
+    margin-bottom: var(--mb-1-5);
 }
 
 
 .S-chairs{
     font-size: var(--normal-font-size);
-    margin-top: var(--mb-2-5);
-    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-0-75);
+    margin-bottom: var(--mb-0-75);
 }
 
 .W-chairs{
     font-size: var(--normal-font-size);
-    margin-top: var(--mb-2-5);
-    margin-bottom: var(--mb-2);
+    margin-top: var(--mb-0-75);
+    margin-bottom: var(--mb-0-75);
 }
 
 
