@@ -136,18 +136,18 @@ function handleScroll() {
     window.pageYOffset ||
     document.documentElement.scrollTop ||
     document.body.scrollTop;
-  //   console.log(scrollTop);
+    console.log(scrollTop);
   //   可以根据你之前添加的网页锚点 获取到比较准确的屏幕高度值
   if (scrollTop < 667) {
     // document获取到home的文本然后修改成当前对应板块的内容
     document.getElementById("current").innerText = "Home";
-  } else if (scrollTop >= 667 && scrollTop < 1991) {
+  } else if (scrollTop >= 667 && scrollTop < 1600) {
     document.getElementById("current").innerText = "Call for papers";
-  } else if (scrollTop >= 1991 && scrollTop < 3278) {
+  } else if (scrollTop >= 1600 && scrollTop < 3000) {
     document.getElementById("current").innerText = "Submission";
-  } else if (scrollTop >= 3278 && scrollTop < 4523) {
+  } else if (scrollTop >= 3000 && scrollTop < 3800) {
     document.getElementById("current").innerText = "Organizers";
-  } else if (scrollTop >= 4523 && scrollTop < 5009) {
-    document.getElementById("current").innerText = " History";
+  } else if (scrollTop >= 3800 && scrollTop < 5009) {
+    document.getElementById("current").innerText = "History";
   }
 }
