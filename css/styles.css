@@ -449,14 +449,12 @@ img {
 }
 
 .callforpapers__description{
-    text-align: justify;
     margin-bottom: var(--mb-0-5);
-    font-size: var(--smallerer-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .topic{
-    text-align: justify;
-    font-size:var(--smallerer-font-size);
+    font-size:var(--normal-font-size);
     list-style: circle;
     /* padding-left: 10px; */
     margin-left: 15px;
@@ -476,7 +474,7 @@ img {
 
 .submission__calendar{
     font-size: var(--smaller-font-size);
-    color: var(--text-color-light);
+    color: black;
 }
 
 .submission__rounder{
@@ -571,32 +569,32 @@ img{
 } */
 
 .G-chairs{
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
 }
 
 .T-chairs{
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-0-5);
 }
 
 
 .S-chairs{
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-0-5);
 }
 
 .W-chairs{
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-0-5);
 }
 
 
 .chairname{
-    font-size: var(--smaller-font-size);
+    font-size: var(--normal-font-size);
 }
 
 .history__list{
