@@ -33,11 +33,10 @@ const sections = document.querySelectorAll("section[id]");
 
 function scrollActive() {
   const scrollY = window.pageYOffset;
-
   sections.forEach((current) => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
-    sectionId = current.getAttribute("id");
+    const sectionId = current.getAttribute("id");
 
     // if (sectionId == 'callforpapers'){
     //         document.getElementById('current').innerHTML = 'Call for papers'
@@ -136,7 +135,7 @@ function handleScroll() {
     window.pageYOffset ||
     document.documentElement.scrollTop ||
     document.body.scrollTop;
-    console.log(scrollTop);
+  console.log(scrollTop);
   //   可以根据你之前添加的网页锚点 获取到比较准确的屏幕高度值
   if (scrollTop < 667) {
     // document获取到home的文本然后修改成当前对应板块的内容
@@ -152,4 +151,10 @@ function handleScroll() {
   }
 }
 
+function PopUp_close() {
+  document.getElementById("PopUp").style.display = "none";
+}
 
+function ShowPop_up() {
+  document.getElementById("PopUp").style.display = "flex";
+}
