@@ -592,6 +592,12 @@ img{
     margin-bottom: var(--mb-0-5);
 }
 
+.TPC{
+    font-size: var(--h3-font-size);
+    margin-top: var(--mb-2);
+    margin-bottom: var(--mb-0-5);
+}
+
 
 .chairname{
     font-size: var(--normal-font-size);
