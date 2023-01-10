@@ -145,9 +145,9 @@ function handleScroll() {
     document.getElementById("current").innerText = "Call for papers";
   } else if (scrollTop >= 1600 && scrollTop < 3000) {
     document.getElementById("current").innerText = "Submission";
-  } else if (scrollTop >= 3000 && scrollTop < 3800) {
+  } else if (scrollTop >= 3000 && scrollTop < 4100) {
     document.getElementById("current").innerText = "Organizers";
-  } else if (scrollTop >= 3800 && scrollTop < 5009) {
+  } else if (scrollTop >= 4100 && scrollTop < 5009) {
     document.getElementById("current").innerText = "History";
   }
 }
