@@ -553,7 +553,7 @@ img {
     margin: 7px;
 } */
 
-.G-chairs {
+.S-chairs {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-5);
 }
@@ -564,7 +564,7 @@ img {
   margin-bottom: var(--mb-0-5);
 }
 
-.S-chairs {
+.G-chairs {
   font-size: var(--h3-font-size);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-0-5);
