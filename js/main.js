@@ -140,14 +140,16 @@ function handleScroll() {
   if (scrollTop < 667) {
     // document获取到home的文本然后修改成当前对应板块的内容
     document.getElementById("current").innerText = "Home";
-  } else if (scrollTop >= 667 && scrollTop < 1600) {
+  } else if (scrollTop >= 667 && scrollTop < 2704) {
     document.getElementById("current").innerText = "Call for papers";
-  } else if (scrollTop >= 1600 && scrollTop < 3000) {
+  } else if (scrollTop >= 2704 && scrollTop < 3985.5) {
     document.getElementById("current").innerText = "Submission";
-  } else if (scrollTop >= 3000 && scrollTop < 4100) {
+  } else if (scrollTop >= 3985.5 && scrollTop < 6634) {
     document.getElementById("current").innerText = "Organizers";
-  } else if (scrollTop >= 4100 && scrollTop < 5009) {
+  } else if (scrollTop >= 6634 && scrollTop < 7420) {
     document.getElementById("current").innerText = "History";
+  } else if (scrollTop >= 7420 && scrollTop < 8359) {
+    document.getElementById("current").innerText = "Keynote";
   }
 }
 

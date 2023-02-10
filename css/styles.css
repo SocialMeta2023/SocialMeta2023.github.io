@@ -558,7 +558,6 @@ img {
   margin-bottom: var(--mb-0-5);
 }
 
-
 .T-chairs {
   font-size: var(--h3-font-size);
   margin-top: var(--mb-2);
@@ -588,6 +587,20 @@ img {
 }
 
 .history__list {
+  margin-top: var(--mb-2);
+}
+
+.keynote {
+  /* height: 800px; */
+}
+.keynote_abstract span,
+.keynote_title span,
+.keynote_bottom span {
+  font-weight: 700;
+}
+
+.keynote_abstract,
+.keynote_bottom {
   margin-top: var(--mb-2);
 }
 
