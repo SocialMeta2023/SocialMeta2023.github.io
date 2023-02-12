@@ -590,16 +590,34 @@ img {
   margin-top: var(--mb-2);
 }
 
-
 .keynote {
-  /* height: 800px; */
+}
+.keynote_image {
+  display: flex;
+  justify-content: center;
+}
+
+.keynote_image img {
+  border-radius: 0%;
+  width: 220px;
+  height: 100%;
+  margin: 0;
+}
+.keynote_image_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.keynote_image_wrap p {
+  margin-top: 10px;
+  font-weight: 700;
 }
 .keynote_abstract span,
 .keynote_title span,
 .keynote_bottom span {
   font-weight: 700;
 }
-
+.keynote_title,
 .keynote_abstract,
 .keynote_bottom {
   margin-top: var(--mb-2);
