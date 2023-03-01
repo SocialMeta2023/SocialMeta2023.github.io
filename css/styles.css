@@ -1094,3 +1094,19 @@ img {
         font-weight: var(--font-medium);
     } */
 }
+
+/* 加粗 */
+.submission_description span {
+  font-weight: 700;
+}
+
+/* 划掉 */
+.submission_decretion {
+  color: #999;
+  text-decoration: line-through;
+}
+
+/* 日期红色 */
+.submission_new {
+  color: red;
+}
