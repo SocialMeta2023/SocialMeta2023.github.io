@@ -1298,14 +1298,17 @@ height: 80px;
 }
 
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   .logo .logo-top,.logo .logo-list {
     flex-wrap: wrap;
   }
   .logo .logo-top img {
-    width: 250px;
+    width: 300px;
     height: 100px;
     margin: 0 auto;
+  }
+  .logo .logo-list {
+    left: 30px;
   }
   .logo .logo-list img{
     width: 100px;
@@ -1319,7 +1322,7 @@ height: 80px;
     width: 50px;
     height: 50px;
     position: absolute;
-    bottom: -10px;
+    bottom: -15px;
     right: -10px;
   }
 }
