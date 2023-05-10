@@ -1140,16 +1140,18 @@ img {
 .logo .logo-top {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 11px;
 }
 .logo .logo-top img {
   width: 30.2222%;
+  border-radius: 0px;
 }
 
 
 .logo .logo-list {
   display: flex;
   justify-content: space-between;
-  padding-left: 10px;
+
   position: relative;
   margin-top: 40px;
 }
