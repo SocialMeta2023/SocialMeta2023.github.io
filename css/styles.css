@@ -1110,3 +1110,31 @@ img {
 .submission_new {
   color: red;
 }
+
+
+.logo {
+  width: 1024px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.logo .logo-top img{
+  width: 100%;
+}
+.logo span {
+  float: left;
+  position: relative;
+}
+.logo span img{
+  border-radius:0px;
+}
+.logo span .img1{
+  width: 100%;
+}
+.logo span .img2{
+  width: 100%;
+}
+.logo span .img3{
+  z-index: 99;
+  width: 100%;
+}
