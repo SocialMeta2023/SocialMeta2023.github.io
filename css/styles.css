@@ -1132,16 +1132,19 @@ img {
   margin: 50px auto;
   position: relative;
 }
+
 .logo h3 {
   position: absolute;
   top: -20px;
   left: 20px;
 }
+
 .logo .logo-top {
   display: flex;
   flex-wrap: wrap;
   padding-left: 11px;
 }
+
 .logo .logo-top img {
   width: 30.2222%;
   border-radius: 0px;
@@ -1155,7 +1158,8 @@ img {
   position: relative;
   margin-top: 40px;
 }
-.logo .logo-list div{
+
+.logo .logo-list div {
   flex: 1;
 }
 
@@ -1163,14 +1167,17 @@ img {
   border-radius: 0px;
   width: 100%;
 }
+
 .logo .logo-list .img1 {
   border-radius: 0px;
   width: 75%;
 }
+
 .logo .logo-list .img2 {
   position: relative;
   width: 75%;
 }
+
 .logo .logo-list .img3 {
   position: relative;
 
@@ -1191,6 +1198,7 @@ img {
     margin: 0 auto;
   }
 }
+
 @media screen and (max-width: 350px) {
   .logo .logo-top img {
 
@@ -1198,3 +1206,24 @@ img {
   }
 }
 
+/* Program start */
+
+.program-title {
+  text-align: center;
+}
+
+.program-time {
+  color: red;
+}
+
+.program-box {
+  margin: 20px 0;
+}
+
+.program-title {
+  margin-top: 10px;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Program end */
